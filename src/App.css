@@ -1,0 +1,207 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 3000;
+}
+
+nav{
+  max-width: 1280px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+
+}
+ul{
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.content-btn{
+  background-color: red;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+}
+
+
+
+
+/* logo */
+
+.main1{
+  display: flex;
+  padding: 30px;
+}
+.btn{
+  display: flex;
+  gap: 30px;
+}
+.content h1{
+  font-size: 4rem;
+}
+.content p{
+  font-size: 1.2rem;
+}
+
+
+                                                      /* Contact Form Design */
+
+
+.main {
+  background-color: #af7b7b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 60%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form h2 {
+  text-align: center;
+  color: #e65b00;
+  margin-bottom: 20px;
+}
+
+form input, textarea {
+  border: 0;
+  margin: 10px 0px;
+  padding: 20px;
+  outline: none;
+  background: #19011f;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  resize: none;
+}
+
+form button {
+  background: white;
+  color: #e65b00;
+  border: 1px solid #e65b00;
+  padding: 15px;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  margin: 20px auto 0;
+  border-radius: 30px;
+  transition: all .5s ease-in;
+}
+
+form button:hover {
+  border: 1px solid #e65b00;
+  background: #e65b00;
+  color: white;
+}
+
+
+
+/* Home Page Design................................................ */
+
+.home-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-main {
+  display: flex;
+}
+
+.image-container {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+}
+
+.man, .women {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.component-area {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.component-display {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  width: 300px;
+}
+
+
+
+/* ..................Shoping */
+
+.store {
+  text-align: center;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* .............................................Services */
+
+.img-services{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
